@@ -1,0 +1,130 @@
+2021-11-12T00:13:37.9502] [info] PayPro Details: SUCCESS
+{"payProUrl":"https://bitpay.com/i/TM6QHEUNgoCMjEmnNwfQL
+k","
+memo":"Payment request for BitPay invoice
+TM6QHEUNgoCMjEmnNwfQLk for merchant Amazon Gift Cards
+(by
+BitPay)","verified":true,"network":"livenet","coin":"eth","expires":"202
+1-11-12T00:28:36.5187","instructions":
+[{"type":"transaction","value":42443000000000000,"to":"0x52dE8D
+3fEbd3a06d3c627f59D56e6892B8ODCf12","data":"Oxb6b4af050
+00000000000000000000000000000000000000000000000009
+6c9af0233b00000000000000000000000000000000000000000
+000000000000000023ac861164000000000000000000000000
+00000000000000000000000000000000618db5356c8deb212f0
+d56f2151847b5d486bcd52e3b73c5d449360b894247b4e84a20
+d27b8375245c2d6060ddb770161d4d2deda5944e7b9cccdf455
+be26c63a6bae1f0000000000000000000000000000000000000
+000000000000000000000000001b66a26a52e354ce6a092ca19
+06695b40cb163c42ccd2ed1ee7c07891e8c4b238e322b0c33d9
+8c9fb879233025b6ebaf2645cdeaf7d14f41c7dae17d6efbbb3b1
+60000000000000000000000000000000000000000000000000
+000000000000000","gasPrice":153218322788,"toAddress":"Ox52
+dE8D3fEbd3a06d3c627f59D56e6892B80DCf12","amount":4244
+3000000000000}],"requiredFeeRate":153218322788}
+[2021-11-12T00:13:37.951Z] [debug] Using merchant fee
+[2021-11-12T00:15:22.3942] [info] Payhttps://api.blockchain.com/v3/exchangePro Details: SUCCESS
+{"payProUrl":"https://bitpay.com/i/80MomTmcZ8KAMLBqfmGgi
+V","memo":"Payment request for BitPay invoice
+80Mom TmcZ8KAMLBqfmGgiv for merchant BitPay Mastercard
+Loads
+(USD)","verified":true,"network":"livenet","coin":"eth","expires":"2021
+-11-12T00:30:22.609Z","instructions":
+[{"type":"transaction","value":1064042000000000000,"to":"0x52dE
+8D3fEbd3a06d3c627f59D56e6892B80DCf12","data":"Oxb6b4afo
+50000000000000000000000000000000000000000000000000
+ec43c8fbc18a000000000000000000000000000000000000000
+0000000000000000002802e721050000000000000000000000
+0000000000000000000000000000000000618db59f500bc9de1
+50afd765bec35c253492a520fe218d4573592d52057775cceca2
+923294e3b4a90ea09e81140399032540b970212891 aad595921
+bc2abf2b040c62df00000000000000000000000000000000000
+0000000000000000000000000001095de5dccbbe73ba7a0a3fa
+72f582ea3c7c01573b6ea8eb9f0354922fef7a73407fc51f4bf625
+c46ea5409ce62fcd995216589a14a7e0d290d99a1fc19ecafdfdo
+00000000000000000000000000000000000000000000000000
+0000000000000","gasPrice":171847393541,"toAddress":"0x52dE
+8D3fEbd3a06d3c627f59D56e6892B80DCf12","amount":106404
+2000000000000}],"requiredFeeRate":171847393541}
+
+
+
+{
+    "time": "2020-01-24T18:57:44.509Z",
+    "expires": "2020-01-24T19:12:44.509Z",
+    "memo": "Payment request for BitPay invoice AonN46AuFPYTC8PKG8cPPV for merchant BitPay Visa® Load (USD-USA)",
+    "paymentUrl": "https://bitpay.com/i/AonN46AuFPYTC8PKG8cPPV",
+    "paymentId": "AonN46AuFPYTC8PKG8cPPV",
+    "paymentOptions": [
+        {
+            "chain": "BTC",
+            "currency": "BTC",
+            "network": "main",
+            "estimatedAmount": 13400,
+            "requiredFeeRate": 6.544,
+            "minerFee": 1600,
+            "decimals": 8,
+            "selected": false
+        },
+        {
+            "chain": "BCH",
+            "currency": "BCH",
+            "network": "main",
+            "estimatedAmount": 315200,
+            "requiredFeeRate": 1,
+            "minerFee": 0,
+            "decimals": 8,
+            "selected": false
+        },
+        {
+            "chain": "ETH",
+            "currency": "ETH",
+            "network": "main",
+            "estimatedAmount": 6195000000000000,
+            "requiredFeeRate": 13555555557,
+            "minerFee": 0,
+            "decimals": 18,
+            "selected": false
+        },
+        {
+            "chain": "ETH",
+            "currency": "GUSD",
+            "network": "main",
+            "estimatedAmount": 100,
+            "requiredFeeRate": 13555555557,
+            "minerFee": 0,
+            "decimals": 2,
+            "selected": false
+        },
+        {
+            "chain": "ETH",
+            "currency": "PAX",
+            "network": "main",
+            "estimatedAmount": 1000000000000000000,
+            "requiredFeeRate": 13555555557,
+            "minerFee": 0,
+            "decimals": 18,
+            "selected": false
+        },
+        {
+            "chain": "ETH",
+            "currency": "USDC",
+            "network": "main",
+            "estimatedAmount": 1000000,
+            "requiredFeeRate": 13555555557,
+            "minerFee": 0,
+            "decimals": 6,
+            "selected": false
+        },
+        {
+            "chain": "XRP",
+            "currency": "XRP",
+            "network": "main",
+            "estimatedAmount": 4494841,
+            "requiredFeeRate": 12,
+            "minerFee": 0,
+            "decimals": 6,
+            "selected": true
+        }
+    ]
+}
